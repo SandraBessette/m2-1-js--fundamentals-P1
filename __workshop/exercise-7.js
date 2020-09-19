@@ -23,6 +23,16 @@ function exercise7() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let num = 0; num <= 23; num++) {
+    let activity = "train";
+    if (num <= 23 && num  >= 22 || num >= 0 && num <=5) {
+      activity = "sleep";
+    }
+    if (num === 6 || num === 12 || num === 18) {
+      activity = "eat";
+    }
+    console.log(`It's ${num}h. Time to ${activity}!`);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
