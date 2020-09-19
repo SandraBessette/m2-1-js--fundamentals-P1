@@ -48,7 +48,7 @@ function question4() {
   // Question 4:
   // Which of the following are valid objects?
 
-  console.log("4.1. (x)"); /* {}                                       */
+  console.log("4.1. ( )"); /* {}                                       */
   console.log("4.2. ( )"); /* { 'hello' }                              */
   console.log("4.3. (x)"); /* { name: 'I am fruit' }                   */
   console.log("4.4. ( )"); /* {'brand-name': 'Dior' }                  */
@@ -86,7 +86,7 @@ function question6() {
   console.log("6.1.", "string", "bob");
 
   // 6.2. let age = 45;
-  console.log("6.2.", "number", "45");
+  console.log("6.2.", "number", 45);
 
   // 6.3. let isMarried = false;
   console.log("6.3.", "boolean", "false");
