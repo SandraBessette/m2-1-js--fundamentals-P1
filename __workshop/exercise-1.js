@@ -51,8 +51,8 @@ function question4() {
   console.log("4.1. ( )"); /* {}                                       */
   console.log("4.2. ( )"); /* { 'hello' }                              */
   console.log("4.3. (x)"); /* { name: 'I am fruit' }                   */
-  console.log("4.4. ( )"); /* {'brand-name': 'Dior' }                  */
-  console.log("4.5. (x)"); /* { brand-name: 'Channel' }                */
+  console.log("4.4. (x)"); /* {'brand-name': 'Dior' }                  */
+  console.log("4.5. ( )"); /* { brand-name: 'Channel' }                */
   console.log("4.6. (x)"); /* { cool_name: 'bob' + ' Dylan', age: 25 } */
 }
 
@@ -89,10 +89,10 @@ function question6() {
   console.log("6.2.", "number", 45);
 
   // 6.3. let isMarried = false;
-  console.log("6.3.", "boolean", "false");
+  console.log("6.3.", "boolean", false);
 
   // 6.4. let kids = [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]
-  console.log("6.4.", "array", "[{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]");
+  console.log("6.4.", "array", [{name: 'Morty', age: 3}, {name: 'Summer', age: 7}]);
 }
 
 // Once you are done type the following in the terminal to test your answer(s).
