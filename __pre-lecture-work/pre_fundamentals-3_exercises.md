@@ -80,4 +80,4 @@ What is the value of the following expressions:
 
 1. person.key = undefined
 2. person['key'] = undefined
-3. person[key] = create an error
+3. person[key] = "Bob"
