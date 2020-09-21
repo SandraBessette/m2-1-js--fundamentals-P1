@@ -19,7 +19,16 @@ function exercise13() {
   // (The numbers get big quickly!)
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
+  // ----------------------------------------------------------------- 
+  let i = 0;
+  let j = 1;
+  let temp = i;  
+  for (let num = 0; num < 48; num++) {
+    temp = j;
+    j = i + j; 
+    i = temp;
+  }
+  console.log(j);
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
